@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0063)http://librosweb.es/ejercicios/css/ejercicio11/ejercicio11.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Ejercicio formatear tabla</title>
+<style type="text/css">
+
+.normal {
+	font: .9em Arial, Helvetica, sans-serif;
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+th,td {
+	border: 1px solid #000;
+	text-align: center;
+	padding: 0.3em;
+}
+
+table th.euro{
+	background: #E6F3FF url("euro.png") no-repeat left center;
+	text-align: left;
+	padding: 0 .3em 0 1.2em;
+}
+table th.dolar{
+	background: #E6F3FF url("dolar.png") no-repeat left center;
+	text-align: left;
+	padding: 0 .3em 0 1.2em;
+}
+table th.libra{
+	background: #E6F3FF url("libra.png") no-repeat left center;
+	text-align: left;
+	padding: 0 .3em 0 1.2em;
+}
+table th.yen{
+	background: #E6F3FF url("yen.png") no-repeat left center;
+	text-align: left;
+	padding: 0 .3em 0 1.2em;
+}
+.grayback {
+	background-image: url("fondo_gris.gif");
+}
+
+.par td {
+	background-color: #FFFFCC;
+}
+</style>
+</head>
+
+<body>
+<table class="normal"  summary="Tipos de cambio">
+	<tbody><tr>
+		<th class="grayback" scope="col">Cambio</th>
+		<th class="grayback" scope="col">Compra</th>
+		<th class="grayback" scope="col">Venta</th>
+		<th class="grayback" scope="col">Máximo</th>
+		<th class="grayback" scope="col">Mínimo</th>
+	</tr>
+	<tr class="par">
+		<th class="euro" scope="row">Euro/Dolar</th>
+		<td>1.2524</td>
+		<td>1.2527</td>
+		<td>1.2539</td>
+		<td>1.2488</td>
+	</tr>
+	<tr>
+		<th class="dolar"scope="row">Dolar/Yen</th>
+		<td>119.01</td>
+		<td>119.05</td>
+		<td>119.82</td>
+		<td>119.82</td>
+	</tr>
+	<tr class="par">
+		<th class="libra"scope="row">Libra/Dolar</th>
+		<td>1.8606</td>
+		<td>1.8611</td>
+		<td>1.8651</td>
+		<td>1.8522</td>
+	</tr>
+	<tr>
+		<th class="yen"scope="row">Euro/Yen</th>
+		<td>149.09</td>
+		<td>149.13</td>
+		<td>149.79</td>
+		<td>148.96</td>
+	</tr>
+</tbody></table>
+
+
+
+<script id="wappalyzer" src="chrome-extension://gppongmhjkpfnbhagpmjfkannfbllamg/js/inject.js"></script></body></html>
